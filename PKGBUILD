@@ -1,13 +1,13 @@
 # Maintainer: Matt C <mdc028[at]bucknell[dot]edu>
 
 pkgname=onyx
-pkgver=1.1.0
+pkgver=1.2.0
 pkgrel=1
 pkgdesc="Crystal Linux default desktop setup"
 arch=('any')
-url="https://git.tar.black/crystal/onyx"
+url="https://github.com/crystal-linux/onyx"
 license=('GPL')
-source=('inst::git+https://git.tar.black/crystal/onyx')
+source=('inst::git+https://github.com/crystal-linux/onyx')
 depends=('gnome-apps-meta' 'budgie-desktop' 'budgie-desktop-view' 'budgie-screensaver' 'gnome-control-center' 'network-manager-applet' 'xorg-server' 'lightdm' 'lightdm-gtk-greeter' 'xdg-utils' 'xdg-desktop-portal-gtk')
 conflicts=()
 md5sums=('SKIP')
