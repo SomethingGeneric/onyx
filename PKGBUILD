@@ -11,7 +11,7 @@ source=('inst::git+https://github.com/crystal-linux/onyx')
 depends=('gnome-apps-meta' 'budgie-desktop' 'budgie-desktop-view' 'budgie-screensaver' 'gnome-control-center' 'network-manager-applet' 'xorg-server' 'lightdm' 'lightdm-gtk-greeter' 'xdg-utils' 'xdg-desktop-portal-gtk')
 conflicts=()
 md5sums=('SKIP')
-option=(!strip)
+options=(!strip)
 install='onyx.install'
 
 package() {
